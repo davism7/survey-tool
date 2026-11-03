@@ -1,0 +1,265 @@
+{
+  "market": "California",
+  "state": "CA",
+  "disclaimer": "These are potential product matches based on your stated preferences, not an underwriting decision or financial advice. Insurers must confirm California availability, eligibility, coverage, and premiums. This is a limited shortlist, not a comparison of the whole market.",
+  "ageBands": {
+    "under18": [
+      0,
+      17
+    ],
+    "18_29": [
+      18,
+      29
+    ],
+    "30_39": [
+      30,
+      39
+    ],
+    "40_49": [
+      40,
+      49
+    ],
+    "50_59": [
+      50,
+      59
+    ],
+    "60_plus": [
+      60,
+      120
+    ]
+  },
+  "durationYears": {
+    "up_to_10": 10,
+    "11_20": 20,
+    "over_20": 30,
+    "over_30": 40
+  },
+  "scoring": {
+    "duration": 10,
+    "goal": 2,
+    "feature": 3,
+    "minimum": 2
+  },
+  "typeGoals": {
+    "term": [
+      "income",
+      "debts",
+      "education"
+    ],
+    "whole": [
+      "legacy",
+      "final_expenses"
+    ]
+  },
+  "featureReasons": {
+    "online": "You prefer starting a quote online; this insurer offers that route.",
+    "local_agent": "You prefer a local agent; this insurer offers a local agent network.",
+    "flexible_terms": "You prefer a wider choice of term lengths; this policy offers seven.",
+    "limited_pay": "You prefer a shorter premium-paying period with lifetime protection."
+  },
+  "products": {
+    "protective_classic": {
+      "insurer": "Protective",
+      "title": "Classic Choice Term",
+      "type": "term",
+      "states": [
+        "CA"
+      ],
+      "description": "Level-premium term coverage with seven term lengths to choose from.",
+      "termAges": {
+        "10": 80,
+        "15": 75,
+        "20": 70,
+        "25": 60,
+        "30": 58,
+        "35": 50,
+        "40": 45
+      },
+      "features": [
+        "online",
+        "flexible_terms"
+      ],
+      "highlights": [
+        "10, 15, 20, 25, 30, 35 or 40 years",
+        "Online quote process"
+      ],
+      "cautions": [
+        "Age limits vary by term and tobacco use. Exact eligibility requires an insurer review.",
+        "Conversion Choice with ExtendCare is not available in California."
+      ],
+      "sourceUrl": "https://www.protective.com/what-we-offer/life-insurance/term/classic-choice",
+      "ageSourceUrl": "https://finpro.protective.com/-/media/project/pli/finpro/download-assets/assets/2158000-2158999/plag/plag-2158823-12-25-classicchoicetermaag-12-31-25-digital.pdf",
+      "quoteUrl": "https://www.protective.com/life-insurance/term",
+      "quoteLabel": "Start an insurer quote",
+      "checkedOn": "2026-11-03"
+    },
+    "state_farm_select": {
+      "insurer": "State Farm",
+      "title": "Select Term",
+      "type": "term",
+      "states": [
+        "CA"
+      ],
+      "description": "Term coverage with fixed initial premiums and access to a local State Farm agent.",
+      "termAges": {
+        "10": 75,
+        "20": 65,
+        "30": 45
+      },
+      "features": [
+        "online",
+        "local_agent"
+      ],
+      "highlights": [
+        "10, 20 or 30 years",
+        "Coverage starts at $100,000"
+      ],
+      "cautions": [
+        "Issue-age maximums are 75 for 10 years, 65 for 20 years, and 45 for 30 years.",
+        "Conversion options and riders depend on the policy and state."
+      ],
+      "sourceUrl": "https://www.statefarm.com/insurance/life/term-life/select-term",
+      "quoteUrl": "https://www.statefarm.com/insurance/life/term-life/select-term",
+      "quoteLabel": "Start an insurer quote",
+      "checkedOn": "2026-11-03"
+    },
+    "state_farm_limited_pay": {
+      "insurer": "State Farm",
+      "title": "Limited Pay Whole Life",
+      "type": "whole",
+      "states": [
+        "CA"
+      ],
+      "description": "Lifetime protection with scheduled premiums paid over a shorter period, subject to policy terms.",
+      "termAges": {},
+      "features": [
+        "local_agent",
+        "limited_pay"
+      ],
+      "highlights": [
+        "Premium-paying periods of 10, 15 or 20 years",
+        "Coverage continues after scheduled premiums are paid"
+      ],
+      "cautions": [
+        "A shorter premium-paying period does not mean a shorter coverage period.",
+        "Request an illustration to review premiums, coverage, and cash value before comparing costs."
+      ],
+      "sourceUrl": "https://www.statefarm.com/insurance/life/whole-life",
+      "quoteUrl": "https://www.statefarm.com/insurance/life/whole-life",
+      "quoteLabel": "Request an agent quote",
+      "checkedOn": "2026-11-03"
+    },
+    "new_york_life_whole": {
+      "insurer": "New York Life",
+      "title": "Whole Life Insurance",
+      "type": "whole",
+      "states": [
+        "CA"
+      ],
+      "description": "Lifetime protection with level premiums and cash value, provided policy requirements are met.",
+      "termAges": {},
+      "features": [
+        "local_agent"
+      ],
+      "highlights": [
+        "Lifetime protection and cash value",
+        "Guidance from a financial professional"
+      ],
+      "cautions": [
+        "Dividends are not guaranteed; loans and withdrawals can reduce benefits.",
+        "The Chronic Care Rider is not available in California."
+      ],
+      "sourceUrl": "https://www.newyorklife.com/products/insurance/whole-life",
+      "quoteUrl": "https://www.newyorklife.com/products/insurance/whole-life",
+      "quoteLabel": "Request an agent quote",
+      "checkedOn": "2026-11-03"
+    }
+  },
+  "notes": [
+    {
+      "when": {
+        "question": "dependents",
+        "values": [
+          "partner",
+          "children",
+          "relatives"
+        ]
+      },
+      "text": "Include the people you support when discussing your household’s protection needs."
+    },
+    {
+      "when": {
+        "question": "goals",
+        "values": [
+          "income",
+          "debts",
+          "education"
+        ]
+      },
+      "text": "Bring estimates for income needs, outstanding debts, and future expenses to a coverage discussion."
+    },
+    {
+      "when": {
+        "question": "goals",
+        "values": [
+          "final_expenses",
+          "legacy"
+        ]
+      },
+      "text": "Discuss final expenses or money you want to leave behind alongside your preferred protection period."
+    },
+    {
+      "when": {
+        "question": "income",
+        "values": [
+          "under_25k",
+          "25_50k",
+          "50_100k",
+          "100k_plus"
+        ]
+      },
+      "text": "Your income range is a starting point; savings, existing coverage, and how long support is needed also need review."
+    },
+    {
+      "when": {
+        "question": "coverage",
+        "values": [
+          "employer",
+          "both"
+        ]
+      },
+      "text": "Check the amount and terms of your workplace coverage, including what happens if you change jobs."
+    },
+    {
+      "when": {
+        "question": "coverage",
+        "values": [
+          "personal",
+          "both"
+        ]
+      },
+      "text": "Review your current policy before deciding whether additional coverage is needed."
+    },
+    {
+      "when": {
+        "question": "coverage",
+        "values": [
+          "unsure"
+        ]
+      },
+      "text": "Check your benefits information and personal records to establish what coverage you already have."
+    },
+    {
+      "when": {
+        "question": "budget",
+        "values": [
+          "under_25",
+          "25_50",
+          "51_100",
+          "over_100"
+        ]
+      },
+      "text": "Use your selected budget when requesting real quotes. This survey cannot establish the price or affordability of a policy."
+    }
+  ]
+}

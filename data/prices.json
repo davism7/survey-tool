@@ -1,0 +1,19 @@
+{
+  "currency": "USD",
+  "mode": "insurer_quote_required",
+  "message": "Your personalized premium is not available in this tool. Request a quote directly from the insurer.",
+  "products": {
+    "protective_classic": {
+      "monthly": null
+    },
+    "state_farm_select": {
+      "monthly": null
+    },
+    "state_farm_limited_pay": {
+      "monthly": null
+    },
+    "new_york_life_whole": {
+      "monthly": null
+    }
+  }
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "id": "age",
+    "category": "A little about you",
+    "type": "single",
+    "title": "What is your age range?",
+    "description": "Start with the basics. Choose one answer.",
+    "options": [
+      {
+        "value": "under18",
+        "label": "Under 18"
+      },
+      {
+        "value": "18_29",
+        "label": "18–29"
+      },
+      {
+        "value": "30_39",
+        "label": "30–39"
+      },
+      {
+        "value": "40_49",
+        "label": "40–49"
+      },
+      {
+        "value": "50_59",
+        "label": "50–59"
+      },
+      {
+        "value": "60_plus",
+        "label": "60+"
+      }
+    ]
+  },
+  {
+    "id": "dependents",
+    "category": "The people in your life",
+    "type": "multiple",
+    "title": "Does anyone depend on you financially?",
+    "description": "Think about the people you help support. Select all that apply.",
+    "options": [
+      {
+        "value": "none",
+        "label": "No one",
+        "exclusive": true
+      },
+      {
+        "value": "partner",
+        "label": "My partner"
+      },
+      {
+        "value": "children",
+        "label": "My children"
+      },
+      {
+        "value": "relatives",
+        "label": "Parents or other relatives"
+      }
+    ]
+  },
+  {
+    "id": "goals",
+    "category": "What matters to you",
+    "type": "multiple",
+    "title": "What would you want life insurance to help cover?",
+    "description": "There’s no single right answer. Select all that apply.",
+    "options": [
+      {
+        "value": "income",
+        "label": "Replace my income"
+      },
+      {
+        "value": "debts",
+        "label": "Mortgage or other debts"
+      },
+      {
+        "value": "education",
+        "label": "Children’s future expenses"
+      },
+      {
+        "value": "final_expenses",
+        "label": "Final expenses"
+      },
+      {
+        "value": "legacy",
+        "label": "Leave money to loved ones"
+      },
+      {
+        "value": "unsure",
+        "label": "I’m not sure yet",
+        "exclusive": true
+      }
+    ]
+  },
+  {
+    "id": "duration",
+    "category": "Looking ahead",
+    "type": "single",
+    "title": "How long do you expect to need this protection?",
+    "description": "An estimate is fine. You can also choose “not sure.”",
+    "options": [
+      {
+        "value": "up_to_10",
+        "label": "Up to 10 years"
+      },
+      {
+        "value": "11_20",
+        "label": "11–20 years"
+      },
+      {
+        "value": "over_20",
+        "label": "21–30 years"
+      },
+      {
+        "value": "over_30",
+        "label": "31–40 years"
+      },
+      {
+        "value": "lifetime",
+        "label": "For my lifetime"
+      },
+      {
+        "value": "unsure",
+        "label": "I’m not sure yet"
+      }
+    ]
+  },
+  {
+    "id": "income",
+    "category": "Your household",
+    "type": "single",
+    "title": "How much annual income would your household need to replace if you died?",
+    "description": "Choose an approximate amount in USD. This isn’t a calculation of how much coverage you need.",
+    "options": [
+      {
+        "value": "none",
+        "label": "None"
+      },
+      {
+        "value": "under_25k",
+        "label": "Under $25,000"
+      },
+      {
+        "value": "25_50k",
+        "label": "$25,000–$49,999"
+      },
+      {
+        "value": "50_100k",
+        "label": "$50,000–$99,999"
+      },
+      {
+        "value": "100k_plus",
+        "label": "$100,000 or more"
+      },
+      {
+        "value": "unsure",
+        "label": "I’m not sure yet"
+      }
+    ]
+  },
+  {
+    "id": "coverage",
+    "category": "What’s already in place",
+    "type": "single",
+    "title": "Do you currently have life insurance?",
+    "description": "Include coverage you may have through your job.",
+    "options": [
+      {
+        "value": "none",
+        "label": "No, I don’t"
+      },
+      {
+        "value": "employer",
+        "label": "Through my employer"
+      },
+      {
+        "value": "personal",
+        "label": "A policy I purchased"
+      },
+      {
+        "value": "both",
+        "label": "Both employer and personal coverage"
+      },
+      {
+        "value": "unsure",
+        "label": "I’m not sure"
+      }
+    ]
+  },
+  {
+    "id": "budget",
+    "category": "Your comfort zone",
+    "type": "single",
+    "title": "What monthly budget would you feel comfortable exploring?",
+    "description": "Amounts are in USD. This is a preference, not a price estimate or a guarantee of available coverage.",
+    "options": [
+      {
+        "value": "under_25",
+        "label": "Under $25"
+      },
+      {
+        "value": "25_50",
+        "label": "$25–$50"
+      },
+      {
+        "value": "51_100",
+        "label": "$51–$100"
+      },
+      {
+        "value": "over_100",
+        "label": "Over $100"
+      },
+      {
+        "value": "unsure",
+        "label": "I’m not sure yet"
+      }
+    ]
+  },
+  {
+    "id": "priorities",
+    "category": "What makes a good fit",
+    "type": "multiple",
+    "title": "Which features matter most to you?",
+    "description": "Select all that apply. These preferences help order the matching policies.",
+    "options": [
+      {
+        "value": "online",
+        "label": "Starting a quote online"
+      },
+      {
+        "value": "local_agent",
+        "label": "Working with a local agent"
+      },
+      {
+        "value": "flexible_terms",
+        "label": "More term lengths to choose from"
+      },
+      {
+        "value": "limited_pay",
+        "label": "Lifetime protection with premiums paid over a shorter period"
+      },
+      {
+        "value": "unsure",
+        "label": "No preference yet",
+        "exclusive": true
+      }
+    ]
+  }
+]

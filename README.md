@@ -1,6 +1,6 @@
-# Life insurance survey tool
+# Veylora Financial — financial planning & life insurance
 
-A standalone California life insurance comparison prototype. The survey creates a ranked shortlist of real insurer products, explains why each appears, and links to an insurer quote or agent contact process. Link to its `index.html` URL from a button on your main website.
+A standalone Veylora Financial website with a consultation homepage and a California life insurance comparison prototype. The homepage’s “Click here for quote” button opens `survey.html`. The survey creates a ranked shortlist of real insurer products, explains why each appears, and links to an insurer quote or agent contact process.
 
 **Personalized dollar prices are not connected.** No quote-provider API or account has been supplied. The results explicitly say that a price must be obtained from the insurer. There are no invented premiums, advertised minimums presented as personalized rates, or automatic submissions to insurers.
 
@@ -16,7 +16,9 @@ Open http://localhost:8000. Use a web server; opening the HTML through `file://`
 
 ## Project structure
 
-- `index.html`: page structure and CSS/JavaScript entry points.
+- `index.html`: financial planning and life insurance consultation homepage.
+- `survey.html`: survey page structure and JavaScript entry point.
+- `css/home.css`: homepage layout and styling.
 - `css/style.css`: responsive layout and survey/results styling.
 - `js/app.js`: navigation, answer state, validation, comparison cards, and results.
 - `js/recommendations.js`: filters, weighted matching, ordering, and explanations.
@@ -24,7 +26,7 @@ Open http://localhost:8000. Use a web server; opening the HTML through `file://`
 - `data/rules.json`: product catalog, official sources, age/term constraints, scoring, and discussion notes.
 - `data/prices.json`: explicit unconnected quote status; product amounts remain `null`.
 - `tests/recommendations.test.js`: ranking, filtering, data integrity, and pricing checks.
-- `assets/`: reserved for static media.
+- `assets/`: Veylora Financial’s SVG brand mark and favicon.
 
 ## What the ranking means
 

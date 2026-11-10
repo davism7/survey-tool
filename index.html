@@ -3,36 +3,121 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Compare potential life insurance matches for California and request personalized quotes from insurers.">
-    <title>Edward Haro Financial | Life Insurance</title>
-    <link rel="icon" type="image/png" href="assets/edward-haro-logo.png">
-    <link rel="stylesheet" href="css/style.css">
-    <script type="module" src="js/app.js"></script>
+    <meta name="description" content="Explore financial planning and life insurance consultations with Veylora Financial. Start with your goals and take a thoughtful next step.">
+    <title>Veylora Financial | Financial Planning &amp; Life Insurance</title>
+    <link rel="icon" type="image/svg+xml" href="assets/veylora-mark.svg">
+    <link rel="stylesheet" href="css/style.css?v=veylora-2">
+    <link rel="stylesheet" href="css/home.css?v=veylora-7">
   </head>
-  <body>
+  <body class="home-page">
     <header class="site-header">
-      <a class="brand" href="./" aria-label="Edward Haro Financial home">
-        <img class="brand-logo" src="assets/edward-haro-logo.png" alt="" width="66" height="66">
-        <span>Edward Haro Financial</span>
-      </a>
+      <div class="brand">
+        <img class="brand-logo" src="assets/veylora-mark.svg" alt="" width="44" height="44">
+        <span>Veylora Financial</span>
+      </div>
+      <nav class="home-navigation" aria-label="Homepage sections">
+        <a class="home-nav" href="#getting-started">Getting Started</a>
+        <a class="home-nav" href="#mission">Our Mission</a>
+        <a class="home-nav" href="#our-process">Our Approach</a>
+      </nav>
     </header>
-    <main class="layout">
-      <aside class="sidebar">
-        <p class="eyebrow">A little clarity for what’s ahead</p>
-        <h1>Life changes.<br>Plan for yours.</h1>
-        <p class="intro-copy">Start with what matters to you. Explore life insurance options, one simple question at a time.</p>
-        <ol class="journey" aria-label="Your journey">
-          <li id="stage-survey" aria-current="step"><span>01</span><div><strong>Your life, your priorities</strong><small>A few questions about you</small></div></li>
-          <li id="stage-results"><span>02</span><div><strong>Options to explore</strong><small>A starting point for your next step</small></div></li>
+    <main class="home-main">
+      <section class="home-hero" id="getting-started" aria-labelledby="home-heading">
+        <div class="home-introduction">
+          <p class="eyebrow">Financial planning &amp; life insurance</p>
+          <h1 id="home-heading">Your goals.<br>Your next chapter.<br><span>Let’s get started.</span></h1>
+          <p class="home-lead">Veylora Financial helps you make sense of financial planning and life insurance through personal consultation and clear guidance. Whether you’re preparing for the future or protecting the people you love, we help you understand your options and take the next step.</p>
+          <p class="home-start">Ready to explore life insurance? Start with our short survey to find potential coverage matches and a path to a personalized insurer quote.</p>
+          <a class="primary home-quote" href="survey.html">Click here for quote <span aria-hidden="true">→</span></a>
+          <p class="home-quote-note">No contact details needed to complete the survey.<br>The survey shows potential matches; personalized prices come from insurers.</p>
+        </div>
+        <aside class="consultation-panel" aria-labelledby="conversation-heading">
+          <p class="panel-eyebrow">What to expect</p>
+          <h2 id="conversation-heading">A starting point<br>for your quote.</h2>
+          <p>Our short survey helps you narrow down options before requesting a price.</p>
+          <ol class="consultation-steps">
+            <li><span aria-hidden="true">01</span><div><h3>A few questions about you</h3><p>Tell us about your protection goals, preferred coverage period, and priorities.</p></div></li>
+            <li><span aria-hidden="true">02</span><div><h3>Potential coverage matches</h3><p>See a shortlist with explanations of why each option may fit and what to confirm.</p></div></li>
+            <li><span aria-hidden="true">03</span><div><h3>A path to an insurer quote</h3><p>Use the insurer links to request pricing. The insurer confirms eligibility, policy terms, and premiums.</p></div></li>
+          </ol>
+        </aside>
+      </section>
+      <section class="home-services" id="mission" aria-labelledby="services-heading">
+        <div class="services-introduction">
+          <p class="eyebrow">Our mission</p>
+          <h2 id="services-heading">Clarity for your future.<br>Confidence in your choices.</h2>
+          <p class="mission-statement">Our mission is to make financial planning and life insurance easier to understand, so you can make informed decisions for yourself and the people who matter to you.</p>
+        </div>
+        <article>
+          <h3>Your priorities come first</h3>
+          <p>We believe guidance should begin with your life: your goals, responsibilities, and comfort level. Our purpose is to help you find a direction that reflects what matters to you.</p>
+        </article>
+        <article>
+          <h3>Understanding builds confidence</h3>
+          <p>We aim to make complex choices more approachable through clear explanations and thoughtful consultation. You deserve to understand your options, ask questions, and make decisions at your own pace.</p>
+        </article>
+      </section>
+      <section class="home-process" id="our-process" aria-labelledby="process-heading">
+        <div class="process-introduction">
+          <p class="eyebrow">Our approach</p>
+          <h2 id="process-heading">From first conversation<br>to ongoing guidance.</h2>
+          <p>Once we understand what you want to achieve, we guide you through the process step by step. Here’s how we move from identifying your needs to exploring options, taking action, and reviewing your plans over time.</p>
+          <p class="process-note">The pace depends on your needs and, for insurance, the insurer’s review.</p>
+        </div>
+        <ol class="process-timeline" aria-label="Your consultation journey">
+          <li>
+            <span class="process-number" aria-hidden="true">01</span>
+            <div class="process-step">
+              <h3>Understand your goals</h3>
+              <div class="process-paths">
+                <p><strong>Financial planning</strong>We discuss your priorities, current finances, and what you want to work toward.</p>
+                <p><strong>Life insurance</strong>We learn who you want to protect, what coverage you have, and what fits your budget.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="process-number" aria-hidden="true">02</span>
+            <div class="process-step">
+              <h3>Explore the possibilities</h3>
+              <div class="process-paths">
+                <p><strong>Financial planning</strong>We walk through potential approaches, priorities, and tradeoffs in plain language.</p>
+                <p><strong>Life insurance</strong>We explain coverage types, help you compare insurer quotes, and discuss policy details.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="process-number" aria-hidden="true">03</span>
+            <div class="process-step">
+              <h3>Choose your next steps</h3>
+              <div class="process-paths">
+                <p><strong>Financial planning</strong>Together, we outline an action plan with clear priorities and a sequence that works for you.</p>
+                <p><strong>Life insurance</strong>We help you review coverage, premiums, and terms so you can decide whether to apply.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="process-number" aria-hidden="true">04</span>
+            <div class="process-step">
+              <h3>Put your decisions into action</h3>
+              <div class="process-paths">
+                <p><strong>Financial planning</strong>We guide you through the agreed steps, help organize what’s needed, and answer questions along the way.</p>
+                <p><strong>Life insurance</strong>We guide you through application requirements, the insurer’s review, and any offer. We help you confirm when coverage takes effect.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <span class="process-number" aria-hidden="true">05</span>
+            <div class="process-step">
+              <h3>Review as life changes</h3>
+              <div class="process-paths">
+                <p><strong>Financial planning</strong>We help you revisit progress and adjust your priorities when your goals or circumstances change.</p>
+                <p><strong>Life insurance</strong>We help you review your coverage and beneficiaries as your family, responsibilities, and needs evolve.</p>
+              </div>
+            </div>
+          </li>
         </ol>
-        <div class="sidebar-note"><span aria-hidden="true">↗</span><p>No contact details needed.<br>Your answers stay in this tab.</p></div>
-      </aside>
-      <section class="workspace" aria-label="Life insurance survey">
-        <div id="app" class="card" aria-busy="true"><p role="status">Getting your questions ready…</p></div>
-        <p class="privacy-note">Potential matches, not confirmed eligibility. Personalized prices require an insurer quote.</p>
       </section>
     </main>
-    <footer class="site-footer"><span>A thoughtful first step.</span><a href="https://content.naic.org/consumer/life-insurance.htm" target="_blank" rel="noopener noreferrer">Life insurance basics <span aria-hidden="true">↗</span></a></footer>
-    <noscript><p class="noscript">Please enable JavaScript to use this survey.</p></noscript>
+    <footer class="site-footer"><span>Veylora Financial</span><span>A thoughtful first step.</span></footer>
   </body>
 </html>
